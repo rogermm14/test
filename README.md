@@ -42,7 +42,7 @@ Directory `/exp` contains the output of the experiments. In each subdirectory yo
 
 - `/ncc_transform` contains the transformations used for DSMs alignment - only used in pipeline A
 
-- `/rcdsm` contains the co-registered DSMs
+- `/rcdsm` contains the co-registered DSMs - only used in pipeline A
 
 - `/output/fused_dsm.tif` is the reconstructed DSM after the fusion step
 
