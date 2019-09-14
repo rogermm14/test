@@ -21,9 +21,6 @@ strategies, relying on the identification of a set of tie-points and the correct
 
 Each pipeline is explained in the corresponding section of the report (see part *II-Methodology*).
 
-
-#### Important info
-
 Set the output directory and the cirterion of selection for the input stereo pairs before running each notebook (2nd cell).
 
 The geotiff file `gt_dsm.tif` contains the lidar ground truth Digital Surface Model (DSM).
@@ -50,3 +47,7 @@ Directory `exp` contains the output of the experiments. In each subdirectory you
 
 - `output/sol_dsm_registed.tif` is the reconstructed and registered output DSM
     
+
+#### Experiments
+
+Experiments `exp/pipelineA_oracle`, `exp/pipelineB_oracle` and `exp/pipelineC_oracle` correspond to runs (1), (6) and (7) from Table I of the report. Experiments `exp/pipelineA_sift`, `exp/pipelineB_sift` and `exp/pipelineC_sift` correspond to runs (1), (2) and (3) from Table II of the report.
