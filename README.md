@@ -1,11 +1,15 @@
 ## Bundle Adjustment for 3D Reconstruction from Multi-Date Satellite Images
 
+Roger Mari, Carlo de Franchis, Enric Meinhardt-Llopis, Gabriele Facciolo
+
+
 #### Abstract
 
 The generation of up-to-date accurate 3D models from multiple satellite images has recently become a hot topic of research.
 A well-known challenge of this problem is to set all cameras in a common frame of reference, since depending on the satellite
 geopositioning equipment these may contain errors up to tens of meters on the ground. In this context, bundle block adjustment
 strategies, relying on the identification of a set of tie-points and the correction of the camera models to make them coincident, have become a generally accepted practice. However, new approaches capable of producing state-of-the-art results without the use of bundle adjustment priors have been proposed. This work aims to assess the practical impact of using bundle adjustment for a multi-view stereo pipeline for 3D reconstruction from multi-date satellite images.
+
 
 #### Instructions
 
@@ -16,6 +20,7 @@ strategies, relying on the identification of a set of tie-points and the correct
 - Run `pipelineC.ipynb` to test *Multi-view Stereo with Bundle Block Adjustment* (adjustment of correction offsets)
 
 Each pipeline is explained in the corresponding section of the report (see part *II-Methodology*).
+
 
 #### Important info
 
