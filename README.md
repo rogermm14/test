@@ -30,23 +30,23 @@ The geotiff file `gt_dsm.tif` contains the lidar ground truth Digital Surface Mo
 
 The text file `raw_sift_tracks.txt` contains the pre-computed feature tracks found across the set of input images.
 
-Directory `/pairs` contains the lists of input stereo pairs given by the ORACLE or SIFT selection criteria.
+Directory `pairs` contains the lists of input stereo pairs given by the ORACLE or SIFT selection criteria.
 
-Directory `/exp` contains the output of the experiments. In each subdirectory you can find:
+Directory `exp` contains the output of the experiments. In each subdirectory you can find:
 
-- `/dsm` contains the raw DSMs obtained from each stereo pair
+- `dsm` contains the raw DSMs obtained from each stereo pair
    
-- `/cdsm` contains the DSMs after post-processing 1 (closing)
+- `cdsm` contains the DSMs after post-processing 1 (closing)
     
-- `/mcdsm` contains the DSMs after post-processing 2 (minimum interpolation) - only used in pipeline A
+- `mcdsm` contains the DSMs after post-processing 2 (minimum interpolation) - only used in pipeline A
 
-- `/ncc_transform` contains the transformations used for DSMs alignment - only used in pipeline A
+- `ncc_transform` contains the transformations used for DSMs alignment - only used in pipeline A
 
-- `/rcdsm` contains the co-registered DSMs - only used in pipeline A
+- `rcdsm` contains the co-registered DSMs - only used in pipeline A
 
-- `/output/fused_dsm.tif` is the reconstructed DSM after the fusion step
+- `output/fused_dsm.tif` is the reconstructed DSM after the fusion step
 
-- `/output/t_sol.txt` is the transformation used to register the reconstructed DSM to the GT frame of reference
+- `output/t_sol.txt` is the transformation used to register the reconstructed DSM to the GT frame of reference
 
-- `/output/sol_dsm_registed.tif` is the reconstructed and registered output DSM
+- `output/sol_dsm_registed.tif` is the reconstructed and registered output DSM
     
